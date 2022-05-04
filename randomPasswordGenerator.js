@@ -33,11 +33,11 @@ let pWordMaker = {
  
 for (let index = 0; index < 12; index++) {
 	arrayPickerRandomNumber = Math.floor(Math.random() * 4)
-    upperCaseArrayRandomCharacter = Math.floor(Math.random() * 26) 
-    lowerCaseArrayRandomCharacter = Math.floor(Math.random() * 26)
+    	upperCaseArrayRandomCharacter = Math.floor(Math.random() * 26) 
+    	lowerCaseArrayRandomCharacter = Math.floor(Math.random() * 26)
 	numbersArrayRandomNumber = Math.floor(Math.random() * 10) 
-    specialCharactersArrayRandomCharacter = Math.floor(Math.random() * 5)
-    pWordMaker.arrayPicker()
-    randomPassword = randomPassword + newCharacter
+    	specialCharactersArrayRandomCharacter = Math.floor(Math.random() * 5)
+    	pWordMaker.arrayPicker()
+    	randomPassword = randomPassword + newCharacter
 }
 console.log(randomPassword)
